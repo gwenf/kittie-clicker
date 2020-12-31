@@ -1,5 +1,7 @@
 # Initial Requirements for MVP
 
+![Cat](cat_kittie.png)
+
 - The idea is based off of [Cookie Clicker](https://orteil.dashnet.org/cookieclicker/)
 - You have an in-browser cat
 - The goal is to keep the cat happy, which can be tracker through a 'purr counter' (a positive integer)
