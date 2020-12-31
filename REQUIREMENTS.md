@@ -12,3 +12,4 @@
 
 - Happiness multiplier
 - Purchase items like cat toys that increase the happiness multiplier
+- Data should be stored in Database
