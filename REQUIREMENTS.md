@@ -12,6 +12,23 @@
 - Select from list of cat avatars.
 - Data can be stored in local storage
 
+## Points and Levels
+
+*Item cost doubles with each one purchased*
+
+- Level 0 - Start
+  - Food, Cost: 15 purrs, Resting Purrs: .5/second
+  - Mice, Cost: 25 purrs, Resting Purrs: 1/second
+- Level 1
+  - Scratching Pad, Cost: 50 purrs, Resting Purrs: 2/second
+  - Wool Ball, Cost: 75 purrs, Resting Purrs: 4/second
+- Level 2
+  - Wand Toys, Cost: 150 purrs, Resting Purrs: 8/second
+  - Cat Nip, Cost: 200 purrs, Resting Purrs: 10/second
+- Level 3
+  - Cat Tower, Cost: 400 purrs, Resting Purrs: 15/second
+  - Auto Feeder, Cost: 500 purrs, Resting Purrs: 20/second
+
 # Version 1 Requirements
 
 - Happiness multiplier
