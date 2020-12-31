@@ -8,7 +8,8 @@
 - Users can name their cat
 - Create a cat image that can be clicked on
 - Update the number of purrs (happiness) and show on screen for every click
-- Users can choose a color or theme (optional) for cat and app. Maybe an avatar?
+- Users can choose a color or theme (optional) for cat and app.
+- Select from list of cat avatars.
 - Data can be stored in local storage
 
 # Version 1 Requirements
