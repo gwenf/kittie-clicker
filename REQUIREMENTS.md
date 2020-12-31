@@ -19,13 +19,13 @@
 - Level 0 - Start
   - Food, Cost: 15 purrs, Resting Purrs: .5/second
   - Mice, Cost: 25 purrs, Resting Purrs: 1/second
-- Level 1
+- Level 1 - 10,000 purrs
   - Scratching Pad, Cost: 50 purrs, Resting Purrs: 2/second
   - Wool Ball, Cost: 75 purrs, Resting Purrs: 4/second
-- Level 2
+- Level 2 - 100,000 purrs
   - Wand Toys, Cost: 150 purrs, Resting Purrs: 8/second
   - Cat Nip, Cost: 200 purrs, Resting Purrs: 10/second
-- Level 3
+- Level 3 - 1,000,000 purrs
   - Cat Tower, Cost: 400 purrs, Resting Purrs: 15/second
   - Auto Feeder, Cost: 500 purrs, Resting Purrs: 20/second
 
