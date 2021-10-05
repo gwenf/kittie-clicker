@@ -3,14 +3,9 @@
 ![Cat](cat_kittie.png)
 
 - The idea is based off of [Cookie Clicker](https://orteil.dashnet.org/cookieclicker/)
-- You have an in-browser cat
-- The goal is to keep the cat happy, which can be tracker through a 'purr counter' (a positive integer)
-- Users can name their cat
-- Create a cat image that can be clicked on
-- Update the number of purrs (happiness) and show on screen for every click
-- Users can choose a color or theme (optional) for cat and app.
-- Select from list of cat avatars.
-- Data can be stored in local storage
+- You have an in-browser cat.
+- The goal is to keep the cat happy, which can be tracker through a 'purr counter' (a positive integer).
+- Update the number of purrs (happiness) and show on screen for every click.
 
 ## Points and Levels
 
@@ -29,8 +24,20 @@
   - Cat Tower, Cost: 400 purrs, Resting Purrs: 15/second
   - Auto Feeder, Cost: 500 purrs, Resting Purrs: 20/second
 
-# Version 1 Requirements
+## MVP Requirements
 
-- Happiness multiplier
-- Purchase items like cat toys that increase the happiness multiplier
-- Data should be stored in Database
+- Users can click on the cat image to gain purrs.
+- Welcome screen is shown to users where they can choose their cat picture and name.
+
+## Version 1 Requirements
+
+- A timer must be running in the background.
+- Items will become available for purchase if you have enough purrs and the required level.
+- The first item is automatically available from 0 seconds.
+- Users can level up after they have accrued a certain number of purrs (total, not subtracting what they spend on items).
+
+## Version 2 Requirements
+
+- Add store pages from mockups.
+- Implement happiness multiplier; you can get over time and with certain items. This makes purrs accrue more quickly.
+- Users can choose a color or theme (optional) for cat and app.
