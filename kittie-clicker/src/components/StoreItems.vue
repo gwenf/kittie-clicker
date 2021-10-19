@@ -7,7 +7,7 @@
             @click="() => checkPurchase(item)"
             :class="{disabled: currentTotal < item.cost}"
         >
-            {{ item.name }} - {{ item.cost }} ({{ purchasedItemCount(item) }})
+            {{ item.name }} - Cost: {{ item.cost }} ({{ purchasedItemCount(item) }})
         </li>
     </ul>
 </template>
