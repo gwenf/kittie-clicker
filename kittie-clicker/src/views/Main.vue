@@ -2,8 +2,8 @@
   <div class="p-grid">
     <div class="p-col-5 p-offset-1 main-page p-d-flex p-flex-column p-jc-center p-ai-center">
       <h1>{{ kittenName }}</h1>
-      <p>Purrs: {{ purrs }}</p>
-      <p>Level: {{ level }}</p>
+      <p>Purrs: {{ currentTotal }}</p>
+      <p>Level: {{ user.level }}</p>
       <p>Time: {{ seconds }}</p>
 
       <img :src="kittenUrl" @click="incrementPurrs" class="cat-circle">
@@ -12,13 +12,15 @@
     </div>
     <Divider layout="vertical" />
     <div class="p-col-5">
-      <StoreItems />
+      <StoreItems
+        :currentTotal="currentTotal"
+      />
     </div>
   </div>
 </template>
 
 <script>
-import { mapActions, mapMutations, mapState } from "vuex"
+import { mapActions, mapGetters, mapMutations, mapState } from "vuex"
 import Button from 'primevue/button'
 import Divider from 'primevue/divider'
 import StoreItems from "../components/StoreItems.vue"
@@ -32,19 +34,15 @@ export default {
   },
   data () {
     return {
-      purrs: 0,
-      level: 0,
     }
   },
   computed: {
-    ...mapState(['kittenName', 'kittenUrl', 'timer', 'seconds']),
+    ...mapState(['kittenName', 'kittenUrl', 'timer', 'seconds', 'totalPurrs', 'totalSpent', 'user']),
+    ...mapGetters(['currentTotal']),
   },
   methods: {
-    ...mapMutations(['setSeconds']),
+    ...mapMutations(['setSeconds', 'incrementPurrs', 'purchaseItem']),
     ...mapActions(['createTimer', 'clearTimer']),
-    incrementPurrs () {
-      this.purrs += 1
-    },
     resetSeconds () {
       this.setSeconds(0)
     },
